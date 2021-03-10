@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+:root {
+  --rubik: "Rubik", sans-serif;
+  --cinzel: "Cinzel", serif;
+  --poppins: "Poppins", sans-serif;
+}
+
+* {
+  font-family: var(--poppins) !important;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+  background-color: #161C33;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #F15B28;
+}
+
+/* Top Content ---------------------------------------------------------------*/
+.topHeader {
+  background: #232323;
+  width: 100%;
+  height: 20px;
+  color: white;
+}
+
+.datetime .date span {
+  font-size: 12px;
+}
+
+.fa-facebook.fb,
+.fa-twitter.tw,
+.fa-google-plus-g.gpl,
+.fa-instagram.ins,
+.fa-youtube.yt {
+  color: white;
+  padding: 0px 0px 3px 0px;
+}
+
+.socialContent {
+  /* background: #F15A22; */
+  /* background: blue; */
+  position: relative;
+  left: 80%;
+  right: 50%;
+  top: -105%;
+}
+
+.socialContent2 {
+  /* background: red; */
+  position: relative;
+}
+
+/* navigation bar */
+@font-face {
+  font-family: "TT Norms Pro";
+  src: url('./fonts/TT_Norms_Pro_Medium.otf') format('embedded-opentype'),
+  url('./fonts/TT_Norms_Pro_Medium.otf') format('opentype');
+}
+
+.nav-link{
+  font-family: "TT Norms Pro";
+  font-size: 12px;   
+  letter-spacing: 0.2em;        
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+.link_contact{
+  color: white; 
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+.link_product,.link_store,.link_home,.link_account{
+  color: rgb(165, 165, 165); 
+}
+
+.head_orange{
+  background-color: #F15B28;
+  width: 500px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: -30px;
+}
+
+.navbar{
+  background-color: #161C33;
+}
+
+.navbar-nav{
+  margin-top: -20px;
+}
+/* end of navigation bar */
+
+/* Content -------------------------------------------------------------------*/
+
+.form-section{
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card-header{
+  background-color: #161C33;
+}
+
+.form-group > .btn{
+  background-color: #161C33;
+  color: white;
+}
+
+h3{
+  color: #161C33;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/* Footer  -------------------------------------------------------------------*/
+
+footer {
+  background-color: #161C33;
+  color: #d5d5d5;
+  font-size: 13px;
+}
+
+.footerLogo {
+  width: 200px;
+  height: 150px;
+}
+
+/* About Us */
+
+.aboutUs ul {
+  margin-left: -30px;
+}
+
+.Branches:hover{
+  border-radius: 10px;
+  border: 5px solid white;
+  transform: scale(100%);
+  transition: 0.3s all ease;
+}
+
+.aboutUs ul li {
+  list-style: none;
+  margin: 4px 0;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 0px;
+  z-index: 1;
+} 
+
+footer ul li a{
+  color: white;
+}
+footer ul li a:hover {
+  left: 20px;
+  color: orange;
+  transition: 0.3s;
+  font-size: 15px;
+  text-decoration: none !important;
+  color: orange;
+}
+
+.footerRes {
+  font-size: 10px;
+}

@@ -1,0 +1,28 @@
+.background_containter{
+  background-color: #161C33;
+}
+
+.login_auth{
+  padding: 80px;  
+  transform: translate(120%,30%);
+  width: 400px;
+  height: 450px;
+  background-color: white;     
+  box-shadow: 1px 1px 5px 0px;
+}
+
+.header{
+  padding-top: 10px;
+  z-index: 1;
+  position: absolute;
+  color: white;
+  width: 400px;
+  height: 40px;
+  background-color: #F15B28;
+  margin-top: 105px;
+  margin-left: 480px;
+}
+
+.btn_submit{
+  width: 100%;
+}
